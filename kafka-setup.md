@@ -38,9 +38,9 @@
 `bin/kafka-topics.sh --create --topic demo_test --bootstrap-server {your.host.name}:9092 --replication-factor 1 --partitions 1`
 
 
-## Optional (to test Producer/Consumer command line)
+## Optional (to test Producer/Consumer via command line)
 ## Start Kafka Producer
-- If issues, check IP for inbound traffic (for this demo relax security then remove EC2 instance ASAP)
+- If issues, check IP for inbound traffic (for this demo relax security temporarily)
 `bin/kafka-console-producer.sh --topic demo_test --bootstrap-server {your.host.name}:9092`
 
 ## Start Kafka Consumer
